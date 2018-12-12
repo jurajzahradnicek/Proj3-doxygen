@@ -7,7 +7,7 @@
  * @file Proj3.h
  * @brief Projekt 3 - Jednoducha shlukova analyza - Unweighted pair-group average
  * @author Juraj Zahradnicek - xzahra31
- * @date December 2016
+ * @date December 2018
  * @version 1.0
  * @see https://is.muni.cz/th/172767/fi_b/5739129/web/web/usrov.html
  */
@@ -26,7 +26,7 @@ struct obj_t {
  * @brief Struktura cluster s urcitou velkostou, kapacitou a odkazom na objekt pridavany do clustera
  */
 struct cluster_t {
-    /** Velkost clustera - pocet ovjektov v poli */
+    /** Velkost clustera - pocet objektov v poli */
     int size;
     /** Kapacita clustera - pocet objektov, ktore maju rezervovane miesto v poli */
     int capacity;
